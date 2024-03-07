@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Bold Half Word",
+  "version": "1.0",
+  "description": "Make the first half of each word bold",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
